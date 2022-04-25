@@ -1,4 +1,4 @@
-import { ChainId } from '@dcl/schemas'
+import { ChainId } from '@yanrongxing/schemas'
 import { ContractData } from '../types'
 import { abis } from '../abis'
 

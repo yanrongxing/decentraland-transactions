@@ -1,4 +1,4 @@
-import { ChainId } from '@dcl/schemas'
+import { ChainId } from '@yanrongxing/schemas'
 import { ContractName, ContractData } from '../types'
 
 import { bid } from './bid'

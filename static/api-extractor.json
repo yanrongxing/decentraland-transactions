@@ -57,7 +57,7 @@
    * local files for library1.
    */
   "bundledPackages": [
-    "@dcl/schemas", "ajv"
+    "@yanrongxing/schemas", "ajv"
   ],
   /**
    * Determines how the TypeScript compiler engine will be invoked by API Extractor.

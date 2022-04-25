@@ -1,4 +1,4 @@
-import { ChainId } from '@dcl/schemas'
+import { ChainId } from '@yanrongxing/schemas'
 import { expect } from 'chai'
 import { abis } from '../src/abis'
 import { getContract, getContractName } from '../src/contracts'

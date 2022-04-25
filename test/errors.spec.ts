@@ -1,4 +1,4 @@
-import { ChainId } from '@dcl/schemas'
+import { ChainId } from '@yanrongxing/schemas'
 import { expect } from 'chai'
 import { fake } from 'sinon'
 import { ErrorCode, MetaTransactionError, sendMetaTransaction } from '../src'

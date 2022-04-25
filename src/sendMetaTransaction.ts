@@ -121,7 +121,7 @@ export async function sendMetaTransaction(
     // This is not ideal and depends on the transactions-server's implementation of InvalidSalePriceError's message
     const isSalePriceTooLowError =
       error.message.indexOf(
-        "The transaction data contains a sale price that's lower than the allowed minimum"
+        "The transaction data contains a sale price that s lower than the allowed minimum"
       ) !== -1
 
     if (isSalePriceTooLowError) {

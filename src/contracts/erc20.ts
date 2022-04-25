@@ -51,5 +51,26 @@ export const erc20: Record<ChainId, ContractData> = {
     address: '',
     name: 'ERC20',
     chainId: ChainId.ETHEREUM_GOERLI
+  },
+  [ChainId.BSC_MAINNET]: {
+    version: '2',
+    abi: abis.ERC20,
+    address: '',
+    name: 'ERC20',
+    chainId: ChainId.BSC_MAINNET
+  },
+  [ChainId.BSC_TEST]: {
+    version: '2',
+    abi: abis.ERC20,
+    address: '',
+    name: 'ERC20',
+    chainId: ChainId.BSC_TEST
+  },
+  [ChainId.TEST]: {
+    version: '2',
+    abi: abis.ERC20,
+    address: '',
+    name: 'ERC20',
+    chainId: ChainId.TEST
   }
 }

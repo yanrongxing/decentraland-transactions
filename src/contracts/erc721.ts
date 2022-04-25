@@ -51,5 +51,26 @@ export const erc721: Record<ChainId, ContractData> = {
     address: '',
     name: 'ERC271',
     chainId: ChainId.ETHEREUM_GOERLI
+  },
+  [ChainId.BSC_MAINNET]: {
+    version: '2',
+    abi: abis.ERC721,
+    address: '',
+    name: 'ERC271',
+    chainId: ChainId.BSC_MAINNET
+  },
+  [ChainId.BSC_TEST]: {
+    version: '2',
+    abi: abis.ERC721,
+    address: '',
+    name: 'ERC271',
+    chainId: ChainId.BSC_TEST
+  },
+  [ChainId.TEST]: {
+    version: '2',
+    abi: abis.ERC721,
+    address: '',
+    name: 'ERC271',
+    chainId: ChainId.TEST
   }
 }

@@ -1,17 +1,17 @@
 {
   "name": "@yanrongxing/transactions",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "main": "dist",
   "scripts": {
     "prebuild": "rimraf dist",
-    "build": "npm run lint &&  tsc --project tsconfig.json",
+    "build": "npm run lint && tsc --project tsconfig.json",
     "lint": "tslint --project tsconfig.json -e '*.json' -c tslint.json 'src/**/*.ts{,x}'",
     "test": "node --experimental-modules --es-module-specifier-resolution=node node_modules/.bin/nyc node_modules/mocha/bin/_mocha",
     "test:watch": "npm test -- --watch",
     "test:report": "npx nyc --silent --no-clean npm run test && npx nyc report --reporter=lcov --reporter=text"
   },
   "devDependencies": {
-    "@yanrongxing/schemas": "0.0.1",
+    "@yanrongxing/schemas": "0.0.2",
     "@microsoft/api-documenter": "^7.12.7",
     "@microsoft/api-extractor": "^7.13.2",
     "@rollup/plugin-json": "^4.1.0",

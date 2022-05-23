@@ -16,11 +16,25 @@ export const collectionFactory = {
     name: 'CollectionFactory',
     chainId: ChainId.MATIC_MUMBAI
   },
-  [ChainId.MATIC_MAINNET]: {
+  [ChainId.BSC_MAINNET]: {
     version: '2',
     abi: abis.CollectionFactory,
-    address: '0xB549B2442b2BD0a53795BC5cDcBFE0cAF7ACA9f8',
+    address: '0x2cd7A86BfE944874113Ba4C594c5CE4B7b22B2aA',
     name: 'CollectionFactory',
-    chainId: ChainId.MATIC_MAINNET
+    chainId: ChainId.BSC_MAINNET
+  },
+  [ChainId.BSC_TEST]: {
+    version: '2',
+    abi: abis.CollectionFactory,
+    address: '0x2cd7A86BfE944874113Ba4C594c5CE4B7b22B2aA',
+    name: 'CollectionFactory',
+    chainId: ChainId.BSC_TEST
+  },
+  [ChainId.TEST]: {
+    version: '2',
+    abi: abis.CollectionFactory,
+    address: '0x2cd7A86BfE944874113Ba4C594c5CE4B7b22B2aA',
+    name: 'CollectionFactory',
+    chainId: ChainId.TEST
   }
 }

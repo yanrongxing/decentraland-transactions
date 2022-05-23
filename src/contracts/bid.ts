@@ -15,5 +15,26 @@ export const bid = {
     address: '0xe479dfd9664c693b2e2992300930b00bfde08233',
     name: 'Decentraland Bid',
     chainId: ChainId.ETHEREUM_MAINNET
+  },
+  [ChainId.TEST]: {
+    version: '1',
+    abi: abis.Bid,
+    address: '0x9B1c384f65E1EF6bC141AeA84f3B3955A16faAA9',
+    name: 'Decentraland Bid',
+    chainId: ChainId.TEST
+  },
+  [ChainId.BSC_MAINNET]: {
+    version: '1',
+    abi: abis.Bid,
+    address: '0x9B1c384f65E1EF6bC141AeA84f3B3955A16faAA9',
+    name: 'Decentraland Bid',
+    chainId: ChainId.BSC_MAINNET
+  },
+  [ChainId.BSC_TEST]: {
+    version: '1',
+    abi: abis.Bid,
+    address: '0x9B1c384f65E1EF6bC141AeA84f3B3955A16faAA9',
+    name: 'Decentraland Bid',
+    chainId: ChainId.BSC_TEST
   }
 }

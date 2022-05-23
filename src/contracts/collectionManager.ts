@@ -15,5 +15,26 @@ export const collectionManager = {
     address: '0x9D32AaC179153A991e832550d9F96441Ea27763A',
     name: 'Decentraland Collection Manager',
     chainId: ChainId.MATIC_MAINNET
+  },
+  [ChainId.BSC_MAINNET]: {
+    version: '2',
+    abi: abis.CollectionManager,
+    address: '0x4b7F6a39EE24464876c920e3c547D2eEc57267Ff',
+    name: 'Decentraland Collection Manager',
+    chainId: ChainId.BSC_MAINNET
+  },
+  [ChainId.BSC_TEST]: {
+    version: '2',
+    abi: abis.CollectionManager,
+    address: '0x4b7F6a39EE24464876c920e3c547D2eEc57267Ff',
+    name: 'Decentraland Collection Manager',
+    chainId: ChainId.BSC_TEST
+  },
+  [ChainId.TEST]: {
+    version: '2',
+    abi: abis.CollectionManager,
+    address: '0x4b7F6a39EE24464876c920e3c547D2eEc57267Ff',
+    name: 'Decentraland Collection Manager',
+    chainId: ChainId.TEST
   }
 }

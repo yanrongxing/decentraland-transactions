@@ -54,11 +54,13 @@ export enum ContractName {
   MANAToken = 'MANAToken',
   Marketplace = 'Marketplace',
   MarketplaceV2 = 'MarketplaceV2',
+  MarketplaceV3 = 'MarketplaceV3',
   Rarities = 'Rarities',
   RaritiesWithOracle = 'RaritiesWithOracle',
   ThirdPartyRegistry = 'ThirdPartyRegistry',
   Tiers = 'Tiers',
-  ChainlinkOracle = 'ChainlinkOracle'
+  ChainlinkOracle = 'ChainlinkOracle',
+  ERC1155 = 'ERC1155'
 }
 
 export type MetaTxData = {

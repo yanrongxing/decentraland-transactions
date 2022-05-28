@@ -13,13 +13,13 @@ import { Forwarder } from './Forwarder'
 import { MANAToken } from './MANAToken'
 import { Marketplace } from './Marketplace'
 import { MarketplaceV2 } from './MarketplaceV2'
-
+import { MarketplaceV3 } from './MarketplaceV3'
 import { Rarities } from './Rarities'
 import { Tiers } from './Tiers'
 import { ThirdPartyRegistry } from './ThirdPartyRegistry'
 import { ChainlinkOracle } from './ChainlinkOracle'
 import { RaritiesWithOracle } from './RaritiesWithOracle'
-
+import { ERC1155 } from './ERC1155'
 export const abis = {
   [ContractName.Bid]: Bid,
   [ContractName.BidV2]: BidV2,
@@ -34,9 +34,11 @@ export const abis = {
   [ContractName.MANAToken]: MANAToken,
   [ContractName.Marketplace]: Marketplace,
   [ContractName.MarketplaceV2]: MarketplaceV2,
+  [ContractName.MarketplaceV3]: MarketplaceV3,
   [ContractName.Rarities]: Rarities,
   [ContractName.RaritiesWithOracle]: RaritiesWithOracle,
   [ContractName.ThirdPartyRegistry]: ThirdPartyRegistry,
   [ContractName.Tiers]: Tiers,
-  [ContractName.ChainlinkOracle]: ChainlinkOracle
+  [ContractName.ChainlinkOracle]: ChainlinkOracle,
+  [ContractName.ERC1155]: ERC1155
 }

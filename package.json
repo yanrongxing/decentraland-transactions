@@ -1,6 +1,6 @@
 {
   "name": "@yanrongxing/transactions",
-  "version": "0.0.5",
+  "version": "0.0.9",
   "main": "dist",
   "scripts": {
     "prebuild": "rimraf dist",
@@ -11,7 +11,7 @@
     "test:report": "npx nyc --silent --no-clean npm run test && npx nyc report --reporter=lcov --reporter=text"
   },
   "devDependencies": {
-    "@yanrongxing/schemas": "0.0.2",
+    "@yanrongxing/schemas": "0.1.0",
     "@microsoft/api-documenter": "^7.12.7",
     "@microsoft/api-extractor": "^7.13.2",
     "@rollup/plugin-json": "^4.1.0",

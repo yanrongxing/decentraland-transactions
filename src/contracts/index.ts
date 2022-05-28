@@ -14,11 +14,13 @@ import { forwarder } from './forwarder'
 import { manaToken } from './manaToken'
 import { marketplace } from './marketplace'
 import { marketplaceV2 } from './marketplaceV2'
+import { marketplaceV3 } from './marketplaceV3'
 import { rarities } from './rarities'
 import { tiers } from './tiers'
 import { thirdPartyRegistry } from './thirdPartyRegistry'
 import { chainlinkOracle } from './chainlinkOracle'
 import { raritiesWithOracle } from './raritiesWithOracle'
+import { erc1155 } from './erc1155'
 
 const contracts: Record<
   ContractName,
@@ -37,11 +39,13 @@ const contracts: Record<
   [ContractName.MANAToken]: manaToken,
   [ContractName.Marketplace]: marketplace,
   [ContractName.MarketplaceV2]: marketplaceV2,
+  [ContractName.MarketplaceV3]: marketplaceV3,
   [ContractName.Rarities]: rarities,
   [ContractName.RaritiesWithOracle]: raritiesWithOracle,
   [ContractName.ThirdPartyRegistry]: thirdPartyRegistry,
   [ContractName.Tiers]: tiers,
-  [ContractName.ChainlinkOracle]: chainlinkOracle
+  [ContractName.ChainlinkOracle]: chainlinkOracle,
+  [ContractName.ERC1155]: erc1155
 }
 
 export function getContract(

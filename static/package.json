@@ -1,6 +1,6 @@
 {
   "name": "decentraland-transactions",
-  "version": "0.0.0-development",
+  "version": "0.1.0",
   "repository": "decentraland/decentraland-transactions",
   "homepage": "https://github.com/decentraland/decentraland-transactions",
   "bugs": "https://github.com/decentraland/decentraland-transactions/issues",

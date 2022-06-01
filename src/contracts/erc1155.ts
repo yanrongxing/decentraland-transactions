@@ -13,7 +13,7 @@ export const erc1155: Record<ChainId, ContractData> = {
   [ChainId.MATIC_MAINNET]: {
     version: '2',
     abi: abis.ERC1155,
-    address: '',
+    address: '0x31f325a9d4e7e8e8a2e8b3f4a2ed20fc4e907133',
     name: 'ERC271',
     chainId: ChainId.MATIC_MAINNET
   },

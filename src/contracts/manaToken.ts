@@ -26,7 +26,7 @@ export const manaToken = {
   [ChainId.MATIC_MUMBAI]: {
     version: '1',
     abi: abis.MANAToken,
-    address: '0x5fbdb2315678afecb367f032d93f642f64180aa3',
+    address: '0x60e57e4ad9af84a2e7424a2ecb5dca0c328183ea',
     name: 'Decentraland MANA (PoS)',
     chainId: ChainId.MATIC_MUMBAI
   },
